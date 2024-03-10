@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Qual o seu país?</h1>
+    <input type="search" name="txtp" id="txtp">
+    <input type="button" value="Verificar" onclick="pais()">
+    <div id="res"></div>
+    <script>
+        function pais() {
+            var txtp = document.querySelector('#txtp').value;
+            var res = document.querySelector('#res');
+
+            if (txtp.toLowerCase() === 'brasil') { 
+                res.innerHTML = `Ai sim, ${txtp} é fogo mas é muito top!`;
+                return
+             }
+            res.innerHTML = `Oh, ${txtp} é muito legal, mas você é estrangeiro.`;
+        }
+    </script>
+</body>
+</html>
