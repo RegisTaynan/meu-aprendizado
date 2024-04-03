@@ -32,6 +32,6 @@ switch(diasem) {
         console.log('sabado')
         break
     default:
-        console.log('[ERROR]dia inválido')
+        console.log('[ERROR]dia inválido!')
         break
 }

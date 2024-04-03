@@ -5,7 +5,7 @@ function contar() {
     let res = document.querySelector('div#res')
 
     if (ini.value.length == 0 || fim.value.length == 0 || passo.value.length == 0) {
-        window.alert('[ERROR] dados incompletos')
+        window.alert('[ERROR] dados incompletos!')
     }else {
         res.innerHTML = 'Contando: <br>'
         let i = Number(ini.value)

@@ -8,7 +8,7 @@ function verificar() {
     } else {
         var fsex = document.getElementsByName('radsex')
         var idade = ano - Number(fano.value)
-        res.innerHTML = `Idade calculada: ${idade} anos`
+        res.innerHTML = `Idade calculada: ${idade} anos.`
         var gênero = ''
         var img = document.createElement('img')
         img.setAttribute('id', 'foto')
