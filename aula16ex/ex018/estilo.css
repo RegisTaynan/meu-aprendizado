@@ -1,6 +1,6 @@
 body {
     background-color: rgb(70, 142, 236);
-    font: normal 15 pt arial;
+    font: normal 15pt arial;
 } 
 
 header {
@@ -9,12 +9,16 @@ header {
 }
 
 section {
+    color: black;
     background-color: white;
     border-radius: 10px;
     padding: 15px;
     width: 500px;
     margin: auto;
     box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.363);
+}
+select {
+    width: 150px;
 }
  footer {
     color: white;
