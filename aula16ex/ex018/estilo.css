@@ -16,11 +16,14 @@ section {
     width: 500px;
     margin: auto;
     box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.363);
+    text-align: left;
 }
+
 select {
     width: 150px;
 }
- footer {
+
+footer {
     color: white;
     text-align: center;
     font-style: italic;
