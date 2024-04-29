@@ -13,7 +13,7 @@ function verificar() {
         var img = document.createElement('img')
         img.setAttribute('id', 'foto')
         if (fsex[0].checked) {
-            gênero = 'Homem'
+            gênero = 'Homem.'
             if (idade >=0 && idade < 10) {
                 //criança
                 img.setAttribute('src', 'homemcriança.jpg')

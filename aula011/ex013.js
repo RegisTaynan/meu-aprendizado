@@ -1,7 +1,7 @@
 var Agora = new Date()
 var diasem = Agora.getDay()
 /*
-   0 = domingo
+   0 = domingo.
    1 = segunda
    2 = terça
    3 = quarta

@@ -1,6 +1,6 @@
 var Agora =new Date()
 var hora = Agora.getHours()
-console.log(`Agora são exatamente ${hora}hrs.`)
+console.log(`Agora são exatamente ${hora}hrs`)
 if (hora > 6 && hora < 12) {
     console.log('Bom dia!')
 } if (hora <=18 && hora > 12) {
