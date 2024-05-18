@@ -2,7 +2,7 @@ function contar() {
     let num = document.getElementById('num')
     let tab = document.getElementById('tabuada')
     if(num.value.length == 0) {
-        window.alert('Por Favor, digite um número!.')
+        window.alert('Por Favor, digite um número!')
     }else {
         let n = Number(num.value)
         let c = 1

@@ -1,4 +1,4 @@
-var c= 1.000001
+var c= 1.00000
 while (c<=10) {
     console.log(`passo ${c}`)
     c++
