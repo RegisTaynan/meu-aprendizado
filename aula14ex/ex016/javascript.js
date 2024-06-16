@@ -16,11 +16,13 @@ function contar() {
             p = 1
         }
         if (i < f){
+            // contagem crescente
             for(let c = i;c < f;c += p) {
                 res.innerHTML += `${c}👉`
             }
             res.innerHTML += `🏁`
         } else {
+            // contagem regressiva
             for(let x = i;x > f;x -= p) {
                 res.innerHTML += `${x}👉`
             }
